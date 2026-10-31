@@ -4,6 +4,8 @@ A native macOS investigation: a Crucial P2 **CT500P2SSD8, 500 GB** was updated f
 
 **Status: research documentation, not a downloadable updater.** The working experimental updater was hard-coded to one machine, disk and verified backup. It has not yet been adapted and validated for public use. Do not attempt to reproduce the write sequence from this report on important data. Firmware updates can render a disk inaccessible. Make and verify an independent backup first.
 
+For the full chronology, evidence, reverse-engineered methods, failed attempts, validation and implications for other hubs, see **[the detailed investigation](docs/investigation.md)**.
+
 ## Tested configuration and result
 
 - Apple Silicon Mac, macOS; native host-side code using IOUSBHost and libusb for discovery.
